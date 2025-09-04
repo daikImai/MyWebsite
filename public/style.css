@@ -47,6 +47,7 @@ img {
 
 .logo {
     width: 70px;
+    height: auto;
 }
 
 .main-nav {
@@ -75,6 +76,29 @@ img {
     margin: 0.5rem 0.5rem 2rem;
 }
 
+.pictures img {
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.pictures img:nth-child(1) {
+    animation-delay: 0s;
+}
+.pictures img:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.pictures img:nth-child(3) {
+    animation-delay: 1s;
+}
+.pictures img:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
 .pictures .onetoone {
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -100,7 +124,6 @@ img {
     background-color: antiquewhite;
     font-size: 1rem;
     padding: 1rem 0 2rem;
-    margin-bottom: 1rem;
 }
 
 .about h3 {
@@ -150,6 +173,10 @@ img {
 
 .sub-certificates li {
     list-style: none;
+}
+
+.my-works {
+    padding-top: 1rem;
 }
 
 .callot, .colortiles {

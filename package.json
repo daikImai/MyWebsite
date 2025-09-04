@@ -16,5 +16,8 @@
     "url": "https://github.com/daikImai/MyWebsite/issues"
   },
   "homepage": "https://github.com/daikImai/MyWebsite#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

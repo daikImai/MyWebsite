@@ -16,6 +16,12 @@ body {
 
 a {
     text-decoration: none;
+    color: #432;
+}
+
+a:hover {
+    color: #13325d;
+    text-decoration: underline;
 }
 
 img {
@@ -33,10 +39,6 @@ img {
     justify-content: center;
 }
 
-.align-center {
-    text-align: center;
-}
-
 .page-header {
     display: flex;
     justify-content: space-between;
@@ -44,45 +46,33 @@ img {
 }
 
 .logo {
-    width: 100px;
+    width: 70px;
 }
 
 .main-nav {
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
-    font-size: 1.5rem;
+    gap: 1.5rem;
+    font-size: 1.2rem;
     list-style: none;
-    padding: 1.5rem 0 0;
-}
-
-.main-nav a {
-    color: #432;
-}
-
-.main-nav a:hover {
-    color: #13325d;
-    text-decoration: underline;
+    padding-top: 1.2rem;
 }
 
 .page-title, .heading-large {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: normal;
 }
 
 .page-title {
     margin-top: 2rem;
-    line-height: 1.4;
-    font-weight: normal;
 }
 
 .pictures {
     display: grid;
-    gap: 1rem 1rem;
+    gap: 0.5rem;
     grid-template-columns: repeat(4, 1fr);
-    text-align: center;
-    margin: 2rem 3rem 4rem;
+    margin: 0.5rem 0.5rem 2rem;
 }
 
 .pictures .onetoone {
@@ -106,29 +96,26 @@ img {
     grid-row: 1/2;
 }
 
-.about, .contact {
-    padding: 1.5rem 3rem;
-    font-size: 1.2rem;
-}
-
 .about {
     background-color: antiquewhite;
-    padding: 1rem 0 4rem;
+    font-size: 1rem;
+    padding: 1rem 0 2rem;
+    margin-bottom: 1rem;
 }
 
-.about h3, .contact h3 {
-    margin-bottom: 3rem;
+.about h3 {
+    margin-bottom: 1rem;
 }
 
-.profile {
+.profile {  
     border-spacing: 0;
-    margin: 0 auto 4rem;
+    margin: 0 auto 2rem;
 }
 
 .profile th, .profile td{
     font-weight: normal;
     text-align: left;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     border-bottom: 1px solid #c9c2bc;
 }
 
@@ -140,20 +127,20 @@ img {
 .intro p {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-.intro h4 {
+.certificates h4 {
     margin: 2rem 0 0.5rem;
     padding-top: 0.5rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: normal;
     text-align: center;
 }
 
 .certificates {
     background-color: #c9c2bc;
-    padding-bottom: 1.5rem ;
+    padding-bottom: 1.5rem;
     border-radius: 16px;
 }
 
@@ -165,59 +152,56 @@ img {
     list-style: none;
 }
 
-.my-works h3 {
-    margin-top: 1rem;
+.callot, .colortiles {
+    border-radius: 16px;
+    padding: 0 1.5rem 2rem;
+    width: 96%;
+    font-size: 1rem;
+    margin: 0 2%;
 }
 
 .callot {
     background-color: #f8c68d;
-    border-radius: 16px;
-    padding: 0 3rem 2rem;
-    width: 100%;
-    font-size: 1.2rem;
+    margin: 0.5rem 2% 1rem;
 }
 
 .colortiles {
     background-color: #d0e2fa;
-    border-radius: 16px;
-    padding: 0 3rem 2rem;
-    width: 100%;
-    font-size: 1.2rem;
 }
 
 .callot h4 img {
-    width: 280px;
-    margin: 2.5rem 0 1rem;
+    width: 200px;
+    margin: 2.5rem 0 2rem;
 }
 
 .colortiles h4 img {
-    width: 400px;
+    width: 300px;
     margin: 2.5rem 0 1rem;
 }
 
 .callot-calendar {
-    width: 330px;
+    width: 50%;
     margin: 0 1.5rem 0 0;
 }
 
 .callot-hours {
-    width: 320px;
+    width: 50%;
     border-radius: 16px;
 }
 
 .colortiles-ranking {
     margin-top: 0.8rem;
-    width: 300px;
+    width: 50%;
     border-radius: 16px;
 }
 
 .colortiles-play {
-    width: 320px;
+    width: 50%;
     margin: 2rem 2rem 0 0;
 }
 
 .explanation-callot {
-    margin-top: 2.6rem;
+    margin-top: 3.2rem;
 }
 
 .explanation-colortiles {
@@ -234,15 +218,25 @@ img {
 }
 
 .df p {
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-weight: bold;
 }
 
 .right {
     text-align: right;
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
+}
+
+.contact {
+    background-color: antiquewhite;
+    margin-top: 2rem;
+    padding: 0.2rem 0 1rem;
+}
+
+.contact h3 {
+    margin: 1rem 0;
 }
 
 .contact table {
@@ -251,9 +245,10 @@ img {
 }
 
 .git-icon {
-    height: 35px;
-    width: 35px;
-    margin-left: 8px;
+    height: 40px;
+    width: 40px;
+    margin-left: 4.5px;
+    margin-bottom: 0.5rem;
 }
 
 .icon {
@@ -261,26 +256,20 @@ img {
     width: 50px;
 }
 
-.git-link, .github, .gmail, .insta {
-    text-decoration: none;
-    color: #432;
-}
-
-.git-link:hover, .github:hover, .gmail:hover, .insta:hover {
-    color: #13325d;
-    text-decoration: underline;
-}
-
 .address {
-    padding: 0 0.8rem 0.8rem;
-    font-size: 1.4rem;
+    padding: 0 0.8rem 0.7rem;
+    font-size: 1.2rem;
+}
+
+.address-git {
+    padding: 0 0.8rem 1rem;
+    font-size: 1.2rem;
 }
 
 .copyright {
     background-color: #432;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 4rem;
     color: #fff;
 }
 
@@ -289,6 +278,34 @@ img {
 }
 
 @media (min-width: 860px){
+    .logo {
+        width: 100px;
+    }
+
+    .main-nav {
+        gap: 2.5rem;
+        font-size: 1.8rem;
+        padding-top: 1.5rem;
+    }
+
+    .page-title, .heading-large {
+        font-size: 3rem;
+    }
+
+    .pictures {
+        gap: 1rem;
+        margin: 1.5rem 3rem 3rem;
+    }
+
+    .about {
+        font-size: 1.2rem;
+        padding: 1rem 0 3rem;
+    }
+
+    .about h3 {
+        margin-bottom: 3rem;
+    }
+
     .info {
         display: flex;
         justify-content: space-between;
@@ -298,8 +315,20 @@ img {
         width: 48%;
     }
 
+    .profile th, .profile td{
+        padding: 0.5rem 2rem;
+    }
+
     .intro {
         width: 48%;
+    }
+
+    .intro p {
+        margin-bottom: 3rem;
+    }
+
+    .certificates h4 {
+        font-size: 2.2rem;
     }
 
     .responsive {
@@ -309,6 +338,36 @@ img {
 
     .callot, .colortiles {
         width: 49%;
-        margin: 1%
+        margin: 1%;
+        padding: 0 2rem 2rem;
+        font-size: 1.2rem;
+    }
+
+    .callot h4 img {
+        width: 280px;
+    }
+
+    .colortiles h4 img {
+        width: 400px;
+    }
+
+    .df p {
+        margin-left: 3rem;
+    }
+
+    .right {
+        font-size: 1.5rem;
+    }
+
+    .contact {
+        padding-bottom: 2rem;
+    }
+
+    .contact h3 {
+        margin: 1rem 0 2rem;
+    }
+
+    .address, .address-git {
+        font-size: 1.4rem;
     }
 }

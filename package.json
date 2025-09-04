@@ -1,0 +1,20 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daikImai/MyWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daikImai/MyWebsite/issues"
+  },
+  "homepage": "https://github.com/daikImai/MyWebsite#readme",
+  "description": ""
+}
